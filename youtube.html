@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- **********HEADER SECTION*********  -->
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="./Icons/hamburger-menu.svg" alt="Hamburger menu">
+      <img class="youtube-logo" src="./Icons/youtube-logo.svg" alt="Youtube logo">
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="./Icons/search.svg" alt="search icon">
+        <div class="tooltip">Search</div>
+      </button>
+      <!-- For the tooltip, i put position absolute inside position relative-->
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="./Icons/voice-search-icon.svg" alt="voice-search-icon">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="./Icons/upload-video.svg" alt="upload icon">
+        <div class="tooltip">Create</div>
+      </div>
+
+      <div class="youtube-apps-container">
+        <img class="youtube-app-icon" src="./Icons/youtube-apps.svg" alt="youtube-app icon">
+        <div class="tooltip">Youtube apps</div>
+      </div>
+
+      <div class="notifications-icon-container">
+        <img class="notification-icon" src="./Icons/notifications.svg" alt="notification icon">
+        <div class="notifications-count">5+</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+
+      <div>
+        <img class="profile-icon" src="./Icons/my-channel-simon-pic.jpeg" alt="profile pic">
+      </div>
+    </div>
+  </header>
+
+    <!-- **********SIDE-BAR SECTION*********  -->
+  <nav class="side-bar">
+    <div class="sidebar-link">
+      <img src="./Side bar icons/home.svg" alt="Home icon">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./Side bar icons/explore.svg" alt="Explore icon">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./Side bar icons/subscriptions.svg" alt="Subscriptions icon">
+      <div>You</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./Side bar icons/originals.svg" alt="Originals icon">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./Side bar icons/youtube-music.svg" alt="Youtube-music icon">
+      <div>Youtube music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./Side bar icons/library.svg" alt="Library icon">
+      <div>Library</div>
+    </div>
+  </nav>
+
+
+     <!-- **********VIDEO SECTION*********  -->
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/youtube-img01.webp" alt="wakawaka image">
+          <div class="video-time">5:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="./Profile pics/profilePic1.jpg" alt="Wakawaka image">
+            <!-- <div class="tooltip">Wakawaka_doctor</div> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>AWESOME: She's Moving to Germany for FREE in 2024 AND Getting PAID!</strong></p>
+            <p class="video-author">Wakawaka_doctor &#10003</p>
+            <p class="video-stats">19k views &#183 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/youtube-img2.webp" alt="Google Thumbnail">
+          <div class="video-time">5:23:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="./Profile pics/profilePic2.jpg" alt="Simon image">
+            <!-- <div class="tooltip">SuperSimpleDev</div> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>HTML & CSS Full Course - Beginner to Pro</strong></p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats"> 10M views &#183 2 years ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/youtube-img3.jpg" alt="Google Thumbnail">
+          <div class="video-time">7:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <!-- <img class="profile-pic" src="./Profile pics/profilePic1.jpg" alt="Baba Ara image"> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>MIX - AKIKITAN - Baba Ara</strong></p>
+            <p class="video-author">Ebenezer Obey, Baba Ara, Pastor J. A. Adelakun, and more</p>
+            <!-- <p class="video-stats">19k views &#183 3 weeks ago</p> -->
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/thumbnail-img4.webp" alt="Google Thumbnail">
+          <div class="video-time">2:14:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="./Profile pics/profile-pic4.jpg" alt="Movie image">
+            <!-- <div class="tooltip">巾帼英雄</div> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>2024 Action Movie: Barbarians vs American Special Forces | #actionmovies #hollywoodmovies #action</strong></p>
+            <p class="video-author">巾帼英雄</p>
+            <p class="video-stats"> 8.2M views &#183 11 days ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/thumbnail-img5.jpg" alt="Google Thumbnail">
+          <div class="video-time">19:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="./Profile pics/profile-pic5.jpg" alt="Canada News">
+            <!-- <div class="tooltip">Canada Immigration</div> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>Canada TR to PR: Mark Miller New Statement on PR | IRCC | Canada...</strong></p>
+            <p class="video-author">Canada Immigration &#10003</p>
+            <p class="video-stats">19k views &#183 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./Thumnails/thumbnail-img6.jpg" alt="Black guy Image">
+          <div class="video-time">24:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="./Profile pics/profile-pic6.jpg" alt="Levi Okoye">
+            <!-- <div class="tooltip">Levi Okoye</div> -->
+          </div>
+          <div class="channel-info">
+            <p class="video-title"><strong>HOW I MASTERED CODING with these 4 easy steps</strong></p>
+            <p class="video-author">Levi Okoye</p>
+            <p class="video-stats"> 21K views &#183 13 days ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
